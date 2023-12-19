@@ -40,16 +40,15 @@ window.onscroll = () => {
 
 /*  ========== Scroll reveal ========= */
 ScrollReveal({ 
-    reset: true, 
+    loop: true,
     distance: '80px',
     duration: 2000,
     delay:200
 });
 
 ScrollReveal().reveal('.content, .my-project, .mygallery, .heading', { origin: 'top' });
-ScrollReveal().reveal('.projeckt, .gallery, form', { origin: 'bottom' });
-ScrollReveal().reveal('.content h1, .spek-rumah',  { origin: 'left' });
-ScrollReveal().reveal('.home-images, tr, .content p', { origin: 'rigth' });
+ScrollReveal().reveal('.projeckt, .gallery, form, .spek-rumah, tr', { origin: 'bottom' });
+ScrollReveal().reveal('.content h1, .content p',  { origin: 'top' });
 
 /*  ========== typed Js ========= */
 const typed = new Typed('.multiplate-text', {
