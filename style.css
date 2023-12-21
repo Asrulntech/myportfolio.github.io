@@ -963,9 +963,10 @@ table{
     html{
         font-size: 50%;
     }
-    /* .content{
-        margin-top: -10rem;
-    } */
+  
+       #project{
+        margin-top: -5rem;
+    }
 
 }
 @media (max-width: 365px){
