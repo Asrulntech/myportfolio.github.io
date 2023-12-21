@@ -870,6 +870,7 @@ table{
         font-size: 1rem; 
         line-height: 2rem;  
     }
+  
     #project{
         margin-top: -5rem;
     }
@@ -968,7 +969,7 @@ table{
     }
   
        #project{
-        margin-top: -10rem;
+        margin-top: -5rem;
     }
 
 }
