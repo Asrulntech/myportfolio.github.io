@@ -870,6 +870,9 @@ table{
         font-size: 1rem; 
         line-height: 2rem;  
     }
+    #project{
+        margin-top: -5rem;
+    }
 
     table{
         font-size: 1rem;
@@ -926,9 +929,9 @@ table{
         margin-top: 2rem;
     }
 
-/*     .home{
-        background-color: #000000;
-    } */
+  #project{
+        margin-top: -5rem;
+    }
 
     .home-images img{
         flex-direction: column;
