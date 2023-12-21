@@ -69,9 +69,7 @@ nav.sticky{
     font-weight: 700;
 }
 
-/* .nav-links .active{
-    color: #05fcfc;
-} */
+
 .link a:hover,
 .link a.active{
     color: #0ef;
@@ -119,7 +117,6 @@ nav.sticky{
     content: '';
     background-color:#20f051;
     color: #18181B;
-    /* border: 2px solid #ffffff; */
     box-shadow: 0 0 1rem rgb(30, 241, 160);
 
 }
@@ -748,6 +745,10 @@ table{
         font-size: 13px;
     }
 
+    #project{
+        margin-top: -5rem;
+    }
+
     .home-images img{
         width: 40vw;
      }
@@ -903,7 +904,6 @@ table{
     .gallery{
         grid-template-columns: 1fr;
         padding: 3rem 15% 3rem;
-
     }
 
     #gallery{
@@ -930,7 +930,7 @@ table{
         margin-top: 2rem;
     }
 
-  #project{
+    #project{
         margin-top: -5rem;
     }
 
@@ -947,6 +947,7 @@ table{
         height: 100%;
         background-color: #016161;
     }
+  
     table{
         width: 100%;
         
@@ -985,6 +986,7 @@ table{
     .content{
         display: block;
     }
+  
    #project{
         margin-top: -5rem;
     }
