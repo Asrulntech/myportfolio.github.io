@@ -926,9 +926,9 @@ table{
         margin-top: 2rem;
     }
 
-    .home{
+/*     .home{
         background-color: #000000;
-    }
+    } */
 
     .home-images img{
         flex-direction: column;
@@ -980,7 +980,9 @@ table{
     .content{
         display: block;
     }
-  
+   #project{
+        margin-top: -5rem;
+    }
  
     .my-footer{
         flex-direction: column-reverse;
