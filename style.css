@@ -980,9 +980,8 @@ table{
     .content{
         display: block;
     }
-    /* .content{
-        margin-top: -10rem;
-    } */
+  
+ 
     .my-footer{
         flex-direction: column-reverse;
     }
